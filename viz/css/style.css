@@ -1,0 +1,30 @@
+/* @import 'https://fonts.googleapis.com/css?family=Lato'; */
+
+img {
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,h7{
+    font-family: 'Lato', sans-serif;
+}
+
+.mw-heading span{
+    margin-right: 10px
+}
+
+.trend-card{
+    padding: 10px;
+    border: 1px solid #999;
+    margin-bottom: 10px;
+    background-color: #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.trend-card.expanded{
+    background-color: white;
+}
+
+.trend-card:hover{
+    background-color: white;
+}
